@@ -1,8 +1,6 @@
-## TEDx GECRIT
+# TEDxLINTAC Youth - All Limits; Beyond Limits:
 
-# TEDxGECRIT - Unraveling Paradoxes Website:
-
-GitHub repository for the TEDxGECRIT'23 - Unraveling Paradoxes website! This repository contains all the necessary code and assets to build and deploy the TEDxGECRIT event website.
+GitHub repository for the TEDxLINTAC Youth website! This repository contains all the necessary code and assets to build and deploy the TEDxLINTAC Youth event website.
 
 # Table of contents:
 
@@ -14,7 +12,7 @@ GitHub repository for the TEDxGECRIT'23 - Unraveling Paradoxes website! This rep
 
 ## About:
 
-This repository is dedicated to the source code and development of the TEDxGECRIT - Unraveling Paradoxes website. The website serves as an online platform to showcase event information, speakers, schedule, and facilitate contact with the TEDxGECRIT team.
+This repository is dedicated to the source code and development of the website. The website serves as an online platform to showcase event information, speakers, and schedule.
 
 ## Tech Stack Used:
 
@@ -26,9 +24,6 @@ The website is built using the following technologies:
 - `Vercel` : A cloud platform for hosting and deploying web applications.
 
 <br/>
-
-- Website Hosted on Vercel: https://www.tedxgecrit.com
-- Alternate Hosted Link: https://tedxgecrit.vercel.app
 
 ## Configurations for local Deployement:
 
@@ -54,16 +49,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Collaborators:
 
+STATEMENT: This website was forked from the TEDxGECRIT Website, big thanks to them for open-sourcing the project! Here's the original authors 
+
 1. [Alvin Varghese](https://github.com/alvin1904)
 2. [Sreerag M](https://github.com/sm0483)
 3. [Febin Nelson P](https://github.com/fbn776)
 4. [Saurav K S](https://github.com/Saurav-K-S)
 5. [Divyesh Ashok](https://github.com/Divyesh-ashok)
 
-## Screenshots:
-
-<img src="./public/screenshots/tedweb.jpeg" alt="tedxgecrit.com" />
-
-Thank you for your interest in the TEDxGECRIT - Unraveling Paradoxes website project! We look forward to your contributions and hope you enjoy exploring the website.
-
-(For more information about TEDxGECRIT, visit https://www.tedxgecrit.com ).
