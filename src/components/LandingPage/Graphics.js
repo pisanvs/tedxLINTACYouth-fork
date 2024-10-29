@@ -12,11 +12,11 @@ export default function Graphics({ pos }) {
       <div className="absolute bottom-3 left-0 lg:left-3">
         <div className="theme_text flex flex-col justify-end pl-[40px] uppercase">
           <div className="select-none text-[30px] font-bold leading-[85%] lg:text-[30px]">
-            unraveling
+            All Limits;
           </div>
-          <div className="flex select-none flex-col text-[95px] font-bold leading-[85%] md:flex-row md:text-[100px] lg:text-[160px]">
-            <div>PARA</div>
-            <div>DOXES</div>
+          <div className="flex select-none flex-col text-[95px] font-bold leading-[85%] md:flex-row md:text-[100px] lg:text-[90px]">
+            <div>BEYOND&nbsp;</div>
+            <div>LIMITS</div>
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function Links({ setClose }) {
             href={`${item?.link}`}
             style={{
               color: `${
-                item?.text === active ? "var(--clr-redText)" : "white"
+                item?.text === active ? "var(--clr-tedRed)" : "white"
               }`,
             }}
           >

@@ -16,7 +16,7 @@ const GetTicketsButton = () => (
 const Tickets = () => {
   return (
     <Container section="tickets">
-      <Heading>TIcket</Heading>
+      <Heading>Ticket</Heading>
       <div className="flex w-full flex-col items-center">
         <div className="relative h-[706px] w-[360px] overflow-hidden bg-tm bg-contain bg-center lg:h-[400px]  lg:w-[1200px] lg:bg-td">
           <button

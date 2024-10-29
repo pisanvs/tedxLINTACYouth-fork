@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../../public/logos/logo-small.webp";
+import logo from "../../../public/logos/logo.png";
 import Link from "next/link";
 
 export default function NotFound() {

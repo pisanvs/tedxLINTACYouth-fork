@@ -8,16 +8,8 @@ const UsefulLinks = () => {
       link: "/",
     },
     {
-      name: "Sponsors & Team",
+      name: "Team",
       link: "/meet-us",
-    },
-    {
-      name: "Talks",
-      link: "/talks",
-    },
-    {
-      name: "Gallery",
-      link: "/gallery",
     },
   ];
   return (
@@ -40,9 +32,9 @@ const UsefulLinks = () => {
           <div>{process.env.NEXT_PUBLIC_PHONE}</div>
           <Link
             className="ease cursor-pointer hover:text-redText"
-            href="mailto:tedxrit23@gmail.com"
+            href="mailto:tedxlb@lintac.cl"
           >
-            tedxrit23@gmail.com
+            tedxlb@lintac.cl
           </Link>
         </div>
       </div>

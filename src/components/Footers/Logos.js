@@ -4,11 +4,12 @@ const Logos = () => {
   return (
     <div className="mt-[6px] flex flex-col items-center text-center md:flex-1 md:items-start md:text-left">
       <Image
-        src="/logos/logo.webp"
+        className="-ml-3.5"
+        src="/logos/logo.png"
         height={40}
         width={275}
         loading="lazy"
-        alt="TEDx GEC RIT logo, Kottayam"
+        alt="TEDxLINTAC Youth logo"
       />
       <p className="footer_text mt-2">
         This independent TEDx event

@@ -2,8 +2,8 @@ import PoppinsFont from "@/utils/PoppinsFont";
 import "./globals.css";
 
 export const metadata = {
-  title: "TEDx GEC RIT",
-  description: "TEDx GEC RIT event at RIT Kottayam, Kerala, India",
+  title: "TEDxLINTAC Youth",
+  description: "TEDxLINTAC Youth 2025: All Limits; Beyond Limits. Lincoln International Academy Gymnasium",
 };
 
 export default function RootLayout({ children }) {

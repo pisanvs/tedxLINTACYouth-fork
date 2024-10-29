@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <main>
       <Navbar home={false} />
-      <Sponsor />
+      {/*<Sponsor />*/}
       <Team />
       <Footer />
     </main>

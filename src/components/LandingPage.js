@@ -15,7 +15,7 @@ const debounce = (func, delay) => {
 
 export default function LandingPage() {
   const windowWidth =
-    typeof window !== "undefined" ? window?.innerWidth / 2 : 0;
+    typeof window !== "undefined" ? window?.innerWidth : 0;
   const screenOffset = windowWidth > 384 ? -120 : 0;
   const [pos, setPos] = useState({ x: screenOffset });
 

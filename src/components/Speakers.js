@@ -156,6 +156,7 @@ export default function Speaker() {
             })}
           </div>
           {/* Navigation */}
+          {/* TODO: REPLACE DISABLED */}
           <div className="flex items-center gap-8 pl-[20px] ">
             <button
               onClick={() => {
@@ -168,6 +169,7 @@ export default function Speaker() {
                 );
               }}
               aria-label="Scroll left button"
+              disabled
             >
               <LeftArrow />
             </button>
@@ -182,6 +184,7 @@ export default function Speaker() {
                 );
               }}
               aria-label="Scroll right button"
+              disabled  
             >
               <RightArrow />
             </button>

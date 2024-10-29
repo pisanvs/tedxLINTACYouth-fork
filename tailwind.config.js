@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        tedRed: "#EB0028",
         red: "#DA0400",
         redText: "#FA0400",
         deepGrey: "#1B1B1B",

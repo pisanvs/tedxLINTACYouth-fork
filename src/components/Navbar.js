@@ -5,7 +5,7 @@ import { useState } from "react";
 import Hamburger from "@/components/Navbar/Hamburger";
 import Links, { HomeLink } from "@/components/Navbar/Links";
 import Link from "next/link";
-import { yepDeskLink } from "@/data/SocialLinks";
+import GetTicketsButton from "@/components/utility/GetTicketsButton"
 
 export default function Navbar({ home = true }) {
   const [close, setClose] = useState(false);
@@ -17,11 +17,11 @@ export default function Navbar({ home = true }) {
         <span>
           <Link href="/">
             <Image
-              src="/logos/logo-small.webp"
-              height={24}
-              width={165}
+              src="/logos/logo.png"
+              height={30}
+              width={188}
               loading="eager"
-              alt="TEDx GEC RIT logo, Kottayam"
+              alt="TEDxLINTAC Youth logo"
             />
           </Link>
         </span>
@@ -49,15 +49,3 @@ export default function Navbar({ home = true }) {
     </nav>
   );
 }
-
-const GetTicketsButton = () => (
-  <button className="pointer-events-none w-[165px] select-none rounded-[3px] bg-grey font-semibold text-white ">
-    <Link
-      href={yepDeskLink}
-      className="flex h-full w-full justify-center px-4 py-2 lg:py-1"
-      target="_blank"
-    >
-      Tickets sold out
-    </Link>
-  </button>
-);

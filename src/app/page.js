@@ -3,7 +3,6 @@ import LandingPage from "@/components/LandingPage";
 import Speakers from "@/components/Speakers";
 import Highlights from "@/components/Highlights";
 import MeetUs from "@/components/MeetUs";
-import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
 import AboutTheme from "@/components/AboutTheme";
 import AboutUs from "@/components/AboutUs";
@@ -15,15 +14,23 @@ export default function Home() {
     <main>
       <Navbar />
       <LandingPage />
+      <br />
+      <br />
+      <br />
       <AboutTheme />
+      <br />
       <Speakers />
-      <Performer />
-      <Tickets />
+      <br />
+      {/*<Performer />*/}
+      {/*<Tickets />*/}
       <AboutUs />
-      <Highlights />
+      {/*<Highlights />*/}
+      <br />
       <MeetUs />
-      <ContactUs />
+      <br />
+      <br />
       <Footer />
+      <br />
     </main>
   );
 }

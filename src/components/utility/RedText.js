@@ -1,3 +1,3 @@
 export default function RedText(props) {
-  return <span className="text-redText">{props.children}</span>;
+  return <span className="text-tedRed">{props.children}</span>;
 }
