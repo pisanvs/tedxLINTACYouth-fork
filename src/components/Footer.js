@@ -6,9 +6,7 @@ import Logos from "@/components/Footers/Logos";
 import UsefulLinks from "@/components/Footers/UsefulLinks";
 import FooterIcon from "./Footers/FooterIcon";
 import {
-  githubLink,
   instagramLink,
-  linkedinLink,
   youtubeLink,
 } from "@/data/SocialLinks";
 
@@ -25,7 +23,6 @@ const Footer = () => {
         <div className="flex select-none flex-row justify-center gap-1">
           {/*<FooterIcon link={linkedinLink} iconName="linkedin" />*/}
           <FooterIcon link={instagramLink} iconName="instagram" />
-          <FooterIcon link={githubLink} iconName="github" />
           <FooterIcon link={youtubeLink} iconName="youtube" />
         </div>
       </section>
