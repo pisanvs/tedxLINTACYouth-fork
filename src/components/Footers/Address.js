@@ -6,7 +6,6 @@ const Address = () => {
       <div className="flex flex-col gap-1">
         <SmallHeading>FIND US</SmallHeading>
         <iframe
-          title="Reach TEDxGECRIT at RIT, Kottayam via Google Maps"
           src="https://www.google.com/maps/embed/v1/place?q=Lincoln+International+Academy&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           className="w-[250px] md:w-[300px]"
           width="300"

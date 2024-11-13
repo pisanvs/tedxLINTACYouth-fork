@@ -22,8 +22,8 @@ const Footer = () => {
         <div>2024 TEDxLINTAC Youth (Code originally open-sourced by <RedText><Link href={"https://tedxgecrit.vercel.app/"} className="hover:underline">TEDxGECRIT</Link></RedText> team)</div>
         <div className="flex select-none flex-row justify-center gap-1">
           {/*<FooterIcon link={linkedinLink} iconName="linkedin" />*/}
-          <FooterIcon link={instagramLink} iconName="instagram" />
-          <FooterIcon link={youtubeLink} iconName="youtube" />
+          {/*<FooterIcon link={instagramLink} iconName="instagram" />*/}
+          {/* <FooterIcon link={youtubeLink} iconName="youtube" /> */}
         </div>
       </section>
     </footer>

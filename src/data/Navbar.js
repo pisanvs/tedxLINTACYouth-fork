@@ -6,5 +6,4 @@ export const NavLinks = [
   // { text: "Highlights", link: "#highlights" },
   // { text: "Gallery", link: "/gallery" },
   { text: "Team", link: "/meet-us" },
-  { text: "Contact", link: "#contact" },
 ];

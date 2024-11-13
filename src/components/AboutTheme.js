@@ -13,8 +13,8 @@ const AboutTheme = () => {
           of the world, challenging us to adapt, innovate, and grow.
           By examining these limits, we not only recognize the constraints
           that define our experiences but also discover the opportunities
-          they present. <b>Our goal is enable powerful conversations about what it means
-          to face limits </b> whether as obstacles, a motivators, or even
+          they present. <b>Our goal is to enable powerful conversations about what it means
+          to face limits </b> whether as obstacles, motivators, or even
           catalysts of creativity. We deeply believe that pushing beyond these boundaries
           is what our community needs.
           <br />
