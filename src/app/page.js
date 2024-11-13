@@ -8,29 +8,32 @@ import AboutTheme from "@/components/AboutTheme";
 import AboutUs from "@/components/AboutUs";
 import Tickets from "@/components/Tickets";
 import Performer from "@/components/Performer";
+import ParallaxStars from "@/components/ParallaxStars";
 
 export default function Home() {
   return (
     <main>
-      <Navbar />
-      <LandingPage />
-      <br />
-      <br />
-      <br />
-      <AboutTheme />
-      <br />
-      <Speakers />
-      <br />
-      {/*<Performer />*/}
-      {/*<Tickets />*/}
-      <AboutUs />
-      {/*<Highlights />*/}
-      <br />
-      <MeetUs />
-      <br />
-      <br />
-      <Footer />
-      <br />
-    </main>
+      <ParallaxStars>
+        <Navbar />
+        <LandingPage />
+        <br />
+        <br />
+        <br />
+        <AboutTheme />
+        <br />
+        <Speakers />
+        <br />
+        {/*<Performer />*/}
+        {/*<Tickets />*/}
+        <AboutUs />
+        {/*<Highlights />*/}
+        <br />
+        <MeetUs />
+        <br />
+        <br />
+        <Footer />
+        <br />
+      </ParallaxStars>
+   </main>
   );
 }

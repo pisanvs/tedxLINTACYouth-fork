@@ -5,7 +5,7 @@ const AboutTheme = () => {
   return (
     <Container section="about_theme">
       <article className="mb-8 flex w-full items-center justify-center pt-2 text-center md:px-[5%]">
-        <p className="para block px-2 text-left md:px-0 md:text-center">
+        <p className="para block px-2 text-left text-lg md:px-0 md:text-center">
           The theme for <RedText>TEDxLINTAC <b>Youth</b></RedText>, <i>"All Limits; Beyond Limits," &nbsp;</i>
           invites <b>exploration of the boundaries we face</b> in various aspects
           of life and how we can transcend them. Whether they're physical,

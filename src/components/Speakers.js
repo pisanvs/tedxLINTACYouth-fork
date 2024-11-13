@@ -79,7 +79,7 @@ export default function Speaker() {
 
   return (
     <section
-      className="my-8 w-full overflow-x-hidden px-20 pl-[150px] pr-0 pt-[80px] max-md:p-10 max-sm:p-0 lg:pr-0"
+      className="my-8 w-full overflow-x-hidden px-20 pl-[150px] pr-0 pt-[80px] max-md:p-10 max-sm:p-0 lg:pr-0 text-lg"
       id="speakers"
     >
       <Heading>Speakers</Heading>

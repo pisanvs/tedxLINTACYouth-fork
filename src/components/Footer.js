@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="w-screen space-y-5 bg-deepGrey px-[2rem] py-[3.5rem] md:mt-[6rem] md:space-y-[3rem] lg:px-[75px]">
+    <footer className="space-y-5 bg-deepGrey px-[2rem] py-[3.5rem] md:mt-[6rem] md:space-y-[3rem] lg:px-[75px]">
       <section className="flex flex-col justify-between gap-8 md:flex-row md:gap-0">
         <Logos />
         <Address />

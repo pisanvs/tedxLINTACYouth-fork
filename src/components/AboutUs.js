@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <Container section="about">
       <Heading>About Us</Heading>
-      <div className="flex flex-col gap-8 md:flex-row">
+      <div className="flex flex-col gap-8 md:flex-row text-lg">
         <Description>
           <AboutHeading id="1">TED</AboutHeading>
           <AboutText>
