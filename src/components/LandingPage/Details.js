@@ -9,7 +9,7 @@ export default function Details() {
         <div>LINTAC <b className="font-semibold">Youth</b></div>
       </div>
       <div className="text-shape flex-1 select-none text-center font-extralight leading-none">
-        <div className="text-[80px]">Date TBD</div>
+        <div className="text-[80px]">Date TBA</div>
         <div className="text-[30px]">in 2025</div>
       </div>
     </article>
