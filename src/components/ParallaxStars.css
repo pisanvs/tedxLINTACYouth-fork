@@ -1,6 +1,5 @@
 .parallax-stars-wrapper {
   position: relative;
-  height: min-content;
 }
 
 .stars {
@@ -12,10 +11,11 @@
   pointer-events: none;
   z-index: -1;
   perspective: 1000px;
+  overflow-y: hidden;
 }
 
 .star {
-  position: absolute;
+  position: relative;
   width: 3px;
   height: 3px;
   background-color: white;

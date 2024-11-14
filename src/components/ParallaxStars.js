@@ -14,7 +14,7 @@ const ParallaxStars = ({ children }) => {
       const star = document.createElement('div');
       star.className = 'star';
       star.style.left = `${Math.random() * 100}%`;
-      star.style.top = `${Math.random() * 100}%`;
+      star.style.top = `${Math.random() * 100 - 10}%`;
       star.style.animationDuration = `${2 + Math.random() * 10}s`; // Parallax speed
       starsContainer.appendChild(star);
     }
