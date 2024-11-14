@@ -1,7 +1,6 @@
 import Container from "@/components/utility/Container";
 import Heading from "./utility/Heading";
 import Link from "next/link";
-import { yepDeskLink } from "@/data/SocialLinks";
 
 const GetTicketsButton = () => (
   <Link

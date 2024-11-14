@@ -35,7 +35,7 @@ export const team = [
     null,
     null,
     null,
-    "/team/ande.jpg"
+    "/team/ande.webp"
   ),
   new Volunteer(
     "BUDGET Leopoldo Fernández",
