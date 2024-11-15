@@ -6,10 +6,12 @@ import Hamburger from "@/components/Navbar/Hamburger";
 import Links, { HomeLink } from "@/components/Navbar/Links";
 import Link from "next/link";
 import NavActionButton from "@/components/utility/GetTicketsButton"
+import { useDict } from "@/locales/dict";
 
 export default function Navbar({ home = true }) {
   const [close, setClose] = useState(false);
   const toggleClose = () => setClose(!close);
+  const {dict, changeLocale} = useDict();
 
   return (
     <nav className="backdrop-saturate-180 border-b-1 sticky top-0 z-50 flex h-[75px] w-screen border-white border-opacity-100 bg-black/30 backdrop-blur-xl lg:px-9">
@@ -25,21 +27,21 @@ export default function Navbar({ home = true }) {
             />
           </Link>
         </span>
-        <div className="lg:hidden" onClick={toggleClose}>
-          <Hamburger close={close} />
-        </div>
         <ul className="hidden gap-12 lg:flex">
           {home ? <Links /> : <HomeLink />}
         </ul>
+        <button onClick={changeLocale}>language</button>
+        <div className="lg:hidden" onClick={toggleClose}>
+          <Hamburger close={close} />
+        </div>
         <div className="hidden lg:block">
           <NavActionButton />
         </div>
       </div>
       {/* MOBILE NAV */}
       <div
-        className={`sticky left-0 top-0 z-40 flex h-screen w-screen flex-col items-center justify-center gap-12 bg-black duration-700 ease-in-out lg:hidden ${
-          close ? "nav-close" : "nav-open"
-        }`}
+        className={`sticky left-0 top-0 z-40 flex h-screen w-screen flex-col items-center justify-center gap-12 bg-black duration-700 ease-in-out lg:hidden ${close ? "nav-close" : "nav-open"
+          }`}
       >
         <ul className="flex flex-col gap-6 text-center">
           {home ? <Links setClose={setClose} /> : <HomeLink />}
