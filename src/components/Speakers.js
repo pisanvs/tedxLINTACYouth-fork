@@ -144,13 +144,17 @@ export default function Speaker() {
                         alt="Cards background"
                       />
                     </div>
-                    <Image
-                      src={speaker.image}
-                      className="absolute bottom-0 min-w-[140%] select-none"
-                      alt={speaker.name}
-                      loading="eager"
-                    />
-                  </div>
+                    {
+                      speaker.image ?
+                        <Image
+                          src={speaker.image || null}
+                          className="absolute bottom-0 min-w-[140%] select-none"
+                          alt={speaker.name}
+                          loading="eager"
+                        /> :
+                        <div className="hidden"></div>
+                    }
+                 </div>
                 </div>
               );
             })}

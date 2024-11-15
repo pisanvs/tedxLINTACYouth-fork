@@ -5,7 +5,7 @@ import { useState } from "react";
 import Hamburger from "@/components/Navbar/Hamburger";
 import Links, { HomeLink } from "@/components/Navbar/Links";
 import Link from "next/link";
-import GetTicketsButton from "@/components/utility/GetTicketsButton"
+import NavActionButton from "@/components/utility/GetTicketsButton"
 
 export default function Navbar({ home = true }) {
   const [close, setClose] = useState(false);
@@ -32,7 +32,7 @@ export default function Navbar({ home = true }) {
           {home ? <Links /> : <HomeLink />}
         </ul>
         <div className="hidden lg:block">
-          <GetTicketsButton />
+          <NavActionButton />
         </div>
       </div>
       {/* MOBILE NAV */}
@@ -44,7 +44,7 @@ export default function Navbar({ home = true }) {
         <ul className="flex flex-col gap-6 text-center">
           {home ? <Links setClose={setClose} /> : <HomeLink />}
         </ul>
-        <GetTicketsButton />
+        <NavActionButton />
       </div>
     </nav>
   );

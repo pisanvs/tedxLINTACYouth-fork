@@ -24,7 +24,7 @@ export default function Profile({ lead }) {
         <a href={link} target="_blank">
           <div className="aspect-square w-[30px] translate-y-10 duration-300 ease-out group-hover:translate-y-0">
             <Image
-              src={icon.icon}
+              src={icon.icon || null}
               className="aspect-square w-full object-cover"
               alt={icon.text}
               width={50}
