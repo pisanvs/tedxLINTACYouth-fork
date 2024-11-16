@@ -14,7 +14,7 @@ export default function Graphics({ pos }) {
           <div className="select-none text-[30px] font-bold leading-[85%] lg:text-[30px]">
             All Limits;
           </div>
-          <div className="flex select-none flex-col text-[95px] font-bold leading-[85%] md:flex-row md:text-[100px] lg:text-[90px]">
+          <div className="flex select-none flex-col text-[80px] font-bold leading-[85%] md:flex-row md:text-[90px] lg:text-[90px]">
             <div>BEYOND&nbsp;</div>
             <div>LIMITS</div>
           </div>
