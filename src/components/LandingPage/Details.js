@@ -1,7 +1,10 @@
 import Link from "next/link";
 import RedText from "../utility/RedText";
+import { useDict } from "@/locales/dict";
 
 export default function Details() {
+  const { dictionary } = useDict();
+
   return (
     <article className="mb-24 flex w-full -translate-y-[50px] flex-col items-center justify-center gap-24 text-center md:translate-y-0 lg:mb-32 lg:mt-[75px] lg:flex-row lg:gap-0 ">
       <div className="flex-1 text-[60px] font-extralight leading-[90%] lg:text-left tracking-tighter">
@@ -9,8 +12,8 @@ export default function Details() {
         <div>LINTAC <b className="font-semibold">Youth</b></div>
       </div>
       <div className="text-shape flex-1 select-none text-center font-extralight leading-none">
-        <div className="text-[80px]">Date TBA</div>
-        <div className="text-[30px]">in 2025</div>
+        <div className="text-[80px]">{dictionary.dateTitle}</div>
+        <div className="text-[30px]">{dictionary.dateSubtitle}</div>
       </div>
     </article>
   );

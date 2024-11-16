@@ -1,4 +1,4 @@
 # 
 
 TODO: Add TEAM Images
-TODO: Translate to spanish
+I18N: Translate speaker profiles
