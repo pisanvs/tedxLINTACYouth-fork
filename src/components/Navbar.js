@@ -30,10 +30,17 @@ export default function Navbar({ home = true }) {
         <ul className="hidden gap-12 lg:flex">
           {home ? <Links /> : <HomeLink />}
         </ul>
-       <div className="lg:hidden" onClick={toggleClose}>
+        <div className="lg:hidden">
+          { locale == 'en' ? 
+            <button onClick={() => changeLocale('es')}>ESPAÑOL</button> 
+              :
+            <button onClick={() => changeLocale('en')}>ENGLISH</button>
+          }
+        </div>
+        <div className="lg:hidden" onClick={toggleClose}>
           <Hamburger close={close} />
         </div>
-        <div className="hidden lg:block">
+        <div className="hidden lg:flex lg:flex-row lg:items-center">
           <span className="mr-8">
             { locale == 'en' ? 
               <button onClick={() => changeLocale('es')}>ESPAÑOL</button> 
