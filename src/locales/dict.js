@@ -1,3 +1,4 @@
+"use client";
 import { createContext, useContext, useState, useEffect } from "react";
 import en from "./en/common";
 import es from "./es/common";

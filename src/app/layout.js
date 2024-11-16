@@ -1,5 +1,6 @@
 import PoppinsFont from "@/utils/PoppinsFont";
 import "./globals.css";
+import { DictProvider } from "@/locales/dict";
 
 export const metadata = {
   title: "TEDxLINTAC Youth",
@@ -10,7 +11,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <PoppinsFont />
-      <body className="selection:bg-red selection:text-white">{children}</body>
+      <body className="selection:bg-red selection:text-white">
+        <DictProvider>
+          {children}
+        </DictProvider>
+      </body>
     </html>
   );
 }

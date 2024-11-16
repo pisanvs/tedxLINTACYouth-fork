@@ -11,32 +11,29 @@ import AboutUs from "@/components/AboutUs";
 import Tickets from "@/components/Tickets";
 import Performer from "@/components/Performer";
 import ParallaxStars from "@/components/ParallaxStars";
-import { DictProvider } from "@/locales/dict";
 
 export default function Home() {
   return (
     <main>
       <ParallaxStars>
-        <DictProvider>
-          <Navbar />
-          <LandingPage />
-          <br />
-          <br />
-          <br />
-          <AboutTheme />
-          <br />
-          <Speakers />
-          <br />
-          {/*<Performer />*/}
-          {/*<Tickets />*/}
-          <AboutUs />
-          {/*<Highlights />*/}
-          <br />
-          <MeetUs />
-          <br />
-          <br />
-          <Footer />
-        </DictProvider>
+        <Navbar />
+        <LandingPage />
+        <br />
+        <br />
+        <br />
+        <AboutTheme />
+        <br />
+        <Speakers />
+        <br />
+        {/*<Performer />*/}
+        {/*<Tickets />*/}
+        <AboutUs />
+        {/*<Highlights />*/}
+        <br />
+        <MeetUs />
+        <br />
+        <br />
+        <Footer />
      </ParallaxStars>
    </main>
   );
