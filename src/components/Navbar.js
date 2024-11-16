@@ -11,7 +11,7 @@ import { useDict } from "@/locales/dict";
 export default function Navbar({ home = true }) {
   const [close, setClose] = useState(false);
   const toggleClose = () => setClose(!close);
-  const {dict, changeLocale} = useDict();
+  const { dictionary, changeLocale, locale } = useDict();
 
   return (
     <nav className="backdrop-saturate-180 border-b-1 sticky top-0 z-50 flex h-[75px] w-screen border-white border-opacity-100 bg-black/30 backdrop-blur-xl lg:px-9">
@@ -30,11 +30,17 @@ export default function Navbar({ home = true }) {
         <ul className="hidden gap-12 lg:flex">
           {home ? <Links /> : <HomeLink />}
         </ul>
-        <button onClick={changeLocale}>language</button>
-        <div className="lg:hidden" onClick={toggleClose}>
+       <div className="lg:hidden" onClick={toggleClose}>
           <Hamburger close={close} />
         </div>
         <div className="hidden lg:block">
+          <span className="mr-8">
+            { locale == 'en' ? 
+              <button onClick={() => changeLocale('es')}>ESPAÑOL</button> 
+                :
+              <button onClick={() => changeLocale('en')}>ENGLISH</button>
+            }
+          </span>
           <NavActionButton />
         </div>
       </div>

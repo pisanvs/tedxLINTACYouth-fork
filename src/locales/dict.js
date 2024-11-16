@@ -4,34 +4,49 @@ import es from "./es/common";
 
 const dictionaries = {
   en,
-  es,
-};
+  es
+}
 
 // Create a context for the dictionary
 export const DictContext = createContext();
 
 // Create a provider component
 export const DictProvider = ({ children }) => {
-  const [locale, setLocale] = useState(() => {
-    // Get the locale from localStorage or default to 'en'
-    return localStorage.getItem('locale') || 'en';
-  });
+  const [locale, setLocale] = useState('en'); // Default locale
   const [dictionary, setDictionary] = useState(dictionaries[locale]);
 
   // Function to change the locale
   const changeLocale = (newLocale) => {
     setLocale(newLocale);
-    localStorage.setItem('locale', newLocale); // Persist the locale
+    if (typeof window !== "undefined") {
+      localStorage.setItem('locale', newLocale); // Persist the locale
+    }
+    console.log(newLocale)
+    setDictionary(dictionaries[newLocale])
   };
 
-  // Update dictionary based on locale
   useEffect(() => {
-    // Update the dictionary whenever the locale changes
-    setDictionary(dictionaries[locale] || dictionaries['en']); // Fallback to 'en' if not found
-  }, [locale]);
+    let initialLocale = 'en';
+
+    if (typeof window !== "undefined") {
+      // Get saved locale from localStorage
+      const savedLocale = localStorage.getItem('locale');
+      if (savedLocale && dictionaries[savedLocale]) {
+        initialLocale = savedLocale;
+      } else {
+        // Fallback to browser language
+        const browserLanguage = navigator.language || navigator.userLanguage;
+        const langCode = browserLanguage.split('-')[0];
+        initialLocale = dictionaries[langCode] ? langCode : 'en';
+      }
+    }
+
+    setLocale(initialLocale);
+    setDictionary(dictionaries[initialLocale])
+  }, []);
 
   return (
-    <DictContext.Provider value={{ dictionary, changeLocale }}>
+    <DictContext.Provider value={{ dictionary, changeLocale, locale }}>
       {children}
     </DictContext.Provider>
   );
