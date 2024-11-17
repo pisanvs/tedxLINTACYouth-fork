@@ -1,12 +1,12 @@
 export default function Graphics({ pos }) {
   const style1 = {
-    transform: `translateX(${pos.x / 3}px)`,
-    transition: "transform 0.3s ease",
+    transform: `translateX(${pos.x / 8}px)`,
+    // transition: "transform 0.3s ease",
   };
   return (
     <div className="relative h-[320px] w-full overflow-hidden rounded-xl md:w-screen lg:w-full">
       <div
-        className="absolute left-0 top-0 flex h-full w-screen bg-swirls_home bg-cover "
+        className="absolute -left-10 top-0 flex h-full w-screen bg-swirls_home bg-cover "
         style={{ ...style1 }}
       ></div>
       <div className="absolute bottom-3 left-0 lg:left-3">
