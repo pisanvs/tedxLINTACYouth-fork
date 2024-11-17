@@ -21,7 +21,7 @@ export const team = [
     null,
     null,
     null,
-    "/team/danm.jpg"
+    "/team/danm.webp"
   ),
   new Volunteer(
     "LOGISTICS Florencia Barros",
@@ -56,7 +56,7 @@ export const team = [
     null,
     null,
     null,
-    "/team/antl.jpg"
+    "/team/antl.webp"
   ),
   new Volunteer(
     "CO-ORGANIZER Marcela Toyos",
