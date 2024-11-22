@@ -6,7 +6,7 @@ const ParallaxStars = ({ children }) => {
   const starsRef = useRef();
 
   useEffect(() => {
-    const starCount = 400; // Adjust the number of stars
+    const starCount = 150;
     const starsContainer = starsRef.current;
 
     // Generate stars
