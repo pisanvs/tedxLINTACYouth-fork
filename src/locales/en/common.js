@@ -4,7 +4,7 @@ const dict = {
     speakers: "Speakers",
     about: "About",
     team: "Team",
-    cta: "Mailing List for Updates",
+    cta: "APPLY AS A SPEAKER",
   },
   dateTitle: "Date TBA",
   dateSubtitle: "in 2025",
