@@ -42,7 +42,7 @@ export const team = [
     null,
     null,
     null,
-    "/team/leof.jpg"
+    "/team/leof.webp"
   ),
   new Volunteer(
     "BUDGET Ignacio Morales",
