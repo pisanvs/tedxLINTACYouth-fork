@@ -18,7 +18,7 @@ jobs:
       - name: Build static
         run: yarn build
       - name: Compress out directory
-        run: tar -czvf static.tar.gz dist
+        run: tar -czvf static.tar.gz out
       - name: Upload Release
         uses: softprops/action-gh-release@v2
         with:
