@@ -23,5 +23,5 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: static.tar.gz
-          # tag with commithash
-          tag_name: "Testing"
+          # tag with date
+          tag_name: $(date +%Y%m%d)
