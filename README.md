@@ -20,7 +20,6 @@ The website is built using the following technologies:
 
 - `Next.js` : A popular React framework for building fast and dynamic web applications.
 - `Tailwind CSS` : A utility-first CSS framework for designing responsive and modern user interfaces.
-- `EmailJS` : A service that enables seamless integration of email functionality into Contact section of our page.
 - `Vercel` : A cloud platform for hosting and deploying web applications.
 
 <br/>
