@@ -28,7 +28,7 @@ export const team = [
     null,
     null,
     null,
-    "/team/flob.jpg"
+    "/team/flob.webp"
   ),
   new Volunteer(
     "LOGISTICS Andrés Espejo",
