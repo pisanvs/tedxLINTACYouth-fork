@@ -24,4 +24,4 @@ jobs:
         with:
           files: static.tar.gz
           # tag with commithash
-          tag: ${{ github.sha }}
+          tag_name: ${{ github.sha }}
