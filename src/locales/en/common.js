@@ -18,7 +18,7 @@ const dict = {
     },
     tedx: {
       heading: "TEDx",
-      text: "TEDx is a program of locally organized events that aims to replicate the TED experience. The 'x' in TEDx stands for independently organized TED events. These self-organized events are a combination of TedTalks videos and live speakers, sparking deep discussions and connections in smaller groups. These events ignites the flame of inspiration, inviting people together to share transformative experiences and foster connections through the power of shared wisdom.",
+      text: "TEDx is a program of locally organized events that aims to replicate the TED experience. The 'x' in TEDx stands for independently organized TED events. These self-organized events house performances as well as live speakers, sparking deep discussions and connections in smaller groups within communities. These events ignites the flame of inspiration, inviting people together to share transformative experiences and foster connections through the power of shared wisdom.",
       readMoreLink: "https://www.ted.com/about/programs-initiatives/tedx-program"
     },
     tedxLINTAC: {

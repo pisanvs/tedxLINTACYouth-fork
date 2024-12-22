@@ -13,7 +13,7 @@ import {
 } from "./SpeakerCards/Support";
 import { Speaker_data } from "@/data/SpeakersData.js";
 import "@/components/SpeakerCards/speakerStyles.css";
-import cardBg from "../../public/backgrounds/speaker-card-bg.webp";
+import cardBg from "../../public/backgrounds/speakers.png";
 import Heading from "@/components/utility/Heading";
 
 export default function Speaker() {
@@ -140,6 +140,8 @@ export default function Speaker() {
                     <div className="card-bg-container absolute left-0 top-0 h-full w-full overflow-hidden rounded-[15px]">
                       <Image
                         src={cardBg}
+                        width={300}
+                        objectPosition={"50% 10%"}
                         className="h-full w-full object-cover object-center"
                         alt="Cards background"
                       />

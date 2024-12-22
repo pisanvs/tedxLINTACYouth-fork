@@ -18,7 +18,7 @@ const dict = {
     },
     tedx: {
       heading: "TEDx",
-      text: "TEDx es un programa de eventos organizados localmente que busca replicar la experiencia TED. La 'x' en TEDx representa eventos TED organizados de forma independiente. Estos eventos auto-organizados son una combinación de videos de TedTalks y ponentes en vivo, generando debates profundos y conexiones en grupos más pequeños. Estos eventos encienden la llama de la inspiración, invitando a las personas a compartir experiencias transformadoras y fomentar conexiones a través del poder de la sabiduría compartida.",
+      text: "TEDx es un programa de eventos organizados localmente que busca replicar la experiencia TED. La 'x' en TEDx representa eventos TED organizados de forma independiente. Estos eventos auto-organizados son una combinación de performances como también charlas en vivo, generando debates profundos y conexiones en comunidades y grupos más reducidos. Estos eventos encienden la llama de la inspiración, invitando a las personas a compartir experiencias transformativas y fomentar conexiones a través del poder de la sabiduría compartida.",
       readMoreLink: "https://www.ted.com/about/programs-initiatives/tedx-program"
     },
     tedxLINTAC: {

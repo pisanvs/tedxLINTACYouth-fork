@@ -6,7 +6,7 @@ export default function Graphics({ pos }) {
   return (
     <div className="relative h-[320px] w-full overflow-hidden rounded-xl md:w-screen lg:w-full">
       <div
-        className="absolute -left-10 top-0 flex h-full w-screen bg-swirls_home bg-cover "
+        className="absolute -left-10 top-0 flex h-full w-screen bg-swirls_home bg-cover -translate-y-24 "
         style={{ ...style1 }}
       ></div>
       <div className="absolute bottom-3 left-0 lg:left-3">
