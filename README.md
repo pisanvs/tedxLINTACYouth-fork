@@ -2,6 +2,10 @@
 
 GitHub repository for the TEDxLINTAC Youth website! This repository contains all the necessary code and assets to build and deploy the TEDxLINTAC Youth event website.
 
+# WARNING: License
+
+All of the code in this repo is open source. THIS DOES NOT APPLY TO THE ASSETS. Our original assets (i.e. background, photos, etc) are licensed under CC BY-NC-ND with copyright belonging to [@nitzyn](https://instagram.com/nitzyn_)
+
 # Table of contents:
 
 - [About](#about)
