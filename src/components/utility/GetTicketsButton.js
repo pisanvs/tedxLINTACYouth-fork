@@ -4,9 +4,9 @@ import Link from "next/link"
 export default function NavActionButton() {
     const { dictionary } = useDict();
     return (
-        <button className="enabled w-max select-none rounded-[3px] bg-red font-semibold text-white mr-8">
+        <button className="disabled w-max select-none rounded-[3px] bg-gray font-semibold text-white mr-8">
             <Link
-                href={"https://forms.gle/5DG2VAW7iGei7wvq8"}
+                href={"about:blank"}
                 className="flex h-full w-full justify-center px-4 py-2 lg:py-1"
                 target="_blank"
             >
