@@ -9,7 +9,7 @@ class Speaker {
 export const Speaker_data = [
   new Speaker(
     "TBA",
-    "Speakers will be announced during March, 2025",
+    "Speakers will be announced soon",
     ""
   ),
   new Speaker(
