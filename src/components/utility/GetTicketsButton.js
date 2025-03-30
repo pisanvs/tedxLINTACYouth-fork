@@ -8,7 +8,6 @@ export default function NavActionButton() {
             <Link
                 href={"#"}
                 className="flex h-full w-full justify-center px-4 py-2 lg:py-1"
-                target="_blank"
             >
                 { dictionary.navbar.cta }
             </Link>
