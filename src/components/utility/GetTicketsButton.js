@@ -6,7 +6,6 @@ export default function NavActionButton() {
     return (
         <button className="disabled w-max select-none rounded-[3px] bg-gray-600 font-semibold text-white mr-8" disabled={true}>
             <Link
-                {/*href={"about:blank"}*/}
                 className="flex h-full w-full justify-center px-4 py-2 lg:py-1"
                 target="_blank"
             >
