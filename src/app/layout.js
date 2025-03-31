@@ -3,7 +3,7 @@ import "./globals.css";
 import { DictProvider } from "@/locales/dict";
 
 export const metadata = {
-  title: "TEDxLINTAC Youth",
+  title: "TEDxLINTAC Youth | Website",
   description: "TEDxLINTAC Youth 2025: All Limits; Beyond Limits. Lincoln International Academy Gymnasium",
 };
 
