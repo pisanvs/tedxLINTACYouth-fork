@@ -19,7 +19,7 @@ const Footer = () => {
         <UsefulLinks />
       </section>
       <section className="footer_text flex flex-col-reverse items-center justify-between gap-3 text-center md:flex-row ">
-        <div>2024 TEDxLINTAC Youth (Code originally open-sourced by <RedText><Link href={"https://tedxgecrit.vercel.app/"} className="hover:underline">TEDxGECRIT</Link></RedText> team)</div>
+        <div>2025 TEDxLINTAC Youth (Code originally open-sourced by <RedText><Link href={"https://tedxgecrit.vercel.app/"} className="hover:underline">TEDxGECRIT</Link></RedText> team)</div>
         <div className="flex select-none flex-row justify-center gap-1">
           {/*<FooterIcon link={linkedinLink} iconName="linkedin" />*/}
           <FooterIcon link={instagramLink} iconName="instagram" />
